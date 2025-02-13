@@ -1,0 +1,53 @@
+    [
+      {
+        "name": "Instrumentos Musicales",
+        "slug": "instrumentos-musicales",
+        "image": "url_instrumentos.jpg",
+        "subcategories": [
+          { "name": "Guitarras", "slug": "guitarras", "image": "url_guitarras.jpg" },
+          { "name": "Bajos", "slug": "bajos", "image": "url_bajos.jpg" },
+          { "name": "Baterías", "slug": "baterias", "image": "url_baterias.jpg" },
+          { "name": "Pianos", "slug": "pianos", "image": "url_pianos.jpg" },
+          { "name": "Violines", "slug": "violines", "image": "url_violines.jpg" }
+        ]
+      },
+      {
+        "name": "Equipo de Sonido",
+        "slug": "equipo-de-sonido",
+        "image": "url_sonido.jpg",
+        "subcategories": [
+          { "name": "Amplificadores", "slug": "amplificadores", "image": "url_amplificadores.jpg" },
+          { "name": "Cables Plug", "slug": "cables-plug", "image": "url_cables.jpg" },
+          { "name": "Pedales", "slug": "pedales", "image": "url_pedales.jpg" },
+          { "name":"Afinadores", "slug": "afinadores", "image": "url_afinadores.jpg" },
+          { "name":"Micrófonos", "slug": "microfonos", "image": "url_microfonos.jpg" },
+          { "name": "Parlantes", "slug": "parlantes", "image": "url_parlantes.jpg" }
+        ]
+      },
+      {
+        "name": "Accesorios de Música",
+        "slug": "accesorios-de-musica",
+        "image": "url_accesorios.jpg",
+        "subcategories": [
+          { "name": "Púas", "slug": "puas", "image": "url_puas.jpg" },
+          { "name": "Cuerdas", "slug": "cuerdas", "image": "url_cuerdas.jpg" },
+          { "name": "Estuches", "slug": "estuches", "image": "url_estuches.jpg" },
+          { "name": "Soportes", "slug": "soportes", "image": "url_soportes.jpg" },
+          { "name": "Atriles", "slug": "atriles", "image": "url_atriles.jpg" }
+        ]
+      },
+      {
+        "name": "Cursos y Clases",
+        "slug": "cursos-y-clases",
+        "image": "url_cursos.jpg",
+        "subcategories": [
+          { "name": "Curso de Guitarra", "slug": "curso-guitarra", "image": "url_curso_guitarra.jpg" },
+          { "name": "Curso de Piano", "slug": "curso-piano", "image": "url_curso_piano.jpg" },
+          { "name": "Curso de Bajo", "slug": "curso-bajo", "image": "url_curso_bajo.jpg" },
+          { "name": "Curso de Violín", "slug": "curso-violin", "image": "url_curso_violin.jpg" },
+          { "name": "Curso de Batería", "slug": "curso-bateria", "image": "url_curso_bateria.jpg" },
+          { "name": "Curso de Produccion", "slug": "curso-produccion", "image": "url_curso_produccion.jpg" }
+        ]
+      }
+    ]
+  

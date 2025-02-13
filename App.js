@@ -1,20 +1,28 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { StatusBar } from 'react-native'
+import { colors } from './src/globals/colors'
+import { useFonts } from 'expo-font'
+import { fonts } from './src/globals/fonts'
+import Navigator from './src/navigation/Navigator'
+import { Provider } from 'react-redux'
+import {store} from './src/store'
+
 
 export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>Apolo</Text>
-      <StatusBar style="auto" />
-    </View>
-  );
-}
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+
+  //dotenv.config()
+  const [fontsLoaded] = useFonts(fonts)
+
+  if(!fontsLoaded){
+    return null
+  }
+
+  return (
+    <>
+      <Provider store={store}>
+        <Navigator/>
+      </Provider>    
+      <StatusBar style="light" backgroundColor={colors.background}/>
+    </>
+  )
+}

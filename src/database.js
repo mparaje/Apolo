@@ -1,0 +1,1 @@
+export const base_url = "https://apolomusic-5531c-default-rtdb.firebaseio.com/"
